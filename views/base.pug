@@ -1,0 +1,21 @@
+doctype html
+html
+  head
+    title Harry Dance Academy
+    block scripts
+    block style
+  body
+    
+    nav#navbar
+        ul
+            div#logo
+                img(src="/static/logo.png")
+                | Harod Classes
+            li #[a(href="/") Home]
+            li #[a(href="/about") About]
+            li #[a(href="/services") Services]
+            li #[a(href="/classinfo") Class Info]
+            li #[a(href="/contact") Contact Us]
+    block content        
+    footer#footer
+        | Copyright 2019 HarodDance Academy | All Rights Reserved     

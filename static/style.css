@@ -1,0 +1,189 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Langar&display=swap');
+*
+{
+    margin: 0px;
+    box-sizing: border-box;
+    padding: 0;
+
+}
+
+#logo
+{
+    display: flex;
+    color: white;
+    align-items: center;
+    margin: 0px 10px;
+    height: 39px;
+    margin-right: 570px;
+}
+
+#logo img
+{
+    height: 39px;
+    filter: invert(1);
+}
+#navbar
+{
+    position: fixed;
+    top: 0;
+    width: 100%;
+    background-color: #cc1919;
+    padding: 8px 10px;
+    font-family: 'Langar', cursive;
+}
+#navbar ul 
+{
+display: flex;
+/* justify-content: center; */
+align-items: center;
+}
+
+#navbar li{
+list-style: none;
+}
+
+#navbar li a{
+
+    text-decoration: none;
+    padding: 10px;
+    font-size: 1.5rem;
+    color: white;
+}
+
+#navbar li a:hover{
+
+    color: black;
+}
+
+
+#introsection
+
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: 35px;
+    font-family: 'Lobster';
+    color: #09dbf1;
+    padding-bottom: 205px;
+    padding-right: 500px;
+    background: url('static/second-image.jpg') no-repeat center center/cover;
+     height: 300px;
+     margin-top: 40px;
+
+}
+
+#introsection div.small
+{
+    display: flex;
+   font-size: 20px;
+   color: thistle;
+   padding-left: 160px;
+
+
+}
+  
+   #missionsection
+   {
+   
+       background-color: rgb(179 174 78);
+       height: 300px;
+   
+   } 
+
+   #missionsection h2 
+   {
+   
+       text-align: center;
+       padding-top: 20px;
+       font-family:  'Lobster', cursive;
+       font-size: 33px;
+       
+   
+   } 
+   .card
+   {   display: inline-block;
+       background-color: rgb(226, 180, 120);
+       border: 2px solid black;
+       border-radius: 10px;
+       width: 30%;
+       margin: 20px;
+       height: 200px;
+   }
+   .card:hover
+   {
+       background-color: chocolate;
+   }
+  .card h3
+  {
+      text-align: center;
+      margin: 12px;
+      margin-top: 20px;
+      font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+  }
+
+  .card-box 
+  {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+  }
+  .card-img 
+  {
+      height: 120px;
+      padding: 0px 15px;
+  }
+  .card-img img 
+  {
+      height: inherit;
+  }
+   .card-content 
+   {
+       padding: 0 10px;
+   }
+  .card-content p
+  {
+      font-size: 30px;
+  }
+
+  #sponsersection
+  {
+  
+      background-color: #99aeb1;
+      height: 300px;
+  
+  } 
+  #sponsersection h2 
+  {
+  
+      text-align: center;
+      padding-top: 20px;
+      font-family:  'Lobster', cursive;
+      font-size: 33px;
+  
+  } 
+  #sponsers 
+  {
+      height: 120px;
+      max-width: 1000px;
+      margin: auto;
+  }
+  .spImage 
+  {
+    height: 122%;
+    margin: 31px;
+  }
+#footer
+{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 15px;
+  color: white;
+  background-color: black;
+  height: 60px;
+}
