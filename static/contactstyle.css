@@ -4,6 +4,11 @@ h1
     margin: 10px 0;
     font-family: 'Langar', cursive;
 }
+h3 
+{
+    text-align: center;
+    margin: 20px 10px;
+}
 .myForm
 {
     display: flex;
@@ -23,6 +28,8 @@ h1
     border: 2px solid #571212;
     border-radius: 10px;
     outline: none;
+    background-color:#dcabe0;
+    /* color: blanchedalmond; */
 }
 
 .btn
